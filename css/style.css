@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quicksand:wght@300;400&display=swap');
+
+html {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    padding: 0;
+    margin:0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    font-family: "Quattrocento", serif;
+}
+
+/* ------ Mobile View ------ */
+header {
+    background-color: lightcoral;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+/* nav menu */
+nav {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+nav ul {
+    padding: 0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 1px dotted white;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+}
+
+/* main section */
+main h2, main p {
+    margin: 0 1.5%;
+}
+
+main h2 {
+    margin-top: 1.5rem;
+}
+
+main i{
+    color: crimson;
+}
+
+.see-recipe {
+    text-align: right;
+}
+
+.see-recipe a {
+    text-decoration: none;
+    color: crimson;
+}
+
+/* footer */
+footer {
+    border-top: 1px solid #000;
+    /* margin-top: 2rem; */
+    margin: 2rem 2% 0 2% ;
+}
+
+footer ul {
+    padding: 0;
+    text-align: right;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer i{
+    color: crimson;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+/*-------- tablet view -----*/
+@media screen and (min-width: 800px){
+    /* header */
+    h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    nav {
+        border-top: none;
+        padding-top: 0;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    nav ul li {
+        line-height: 2.3;
+    }
+
+    /* main section */
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    /* footer */
+    footer ul {
+        text-align: center;
+    }
+}
+
+/*----- desktop view -----*/
+@media screen and (min-width: 1100px){
+    /* header and nav */
+    h1 {
+        font-size: 7rem;
+
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        text-align: center;
+    }
+
+    nav ul li {
+         border-bottom: none;
+         border-right: 1px dotted white;
+    }
+
+    .last-nav-li {
+        border: none;
+    }
+
+    /* main section */
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    /* footer */
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50%;
+    }
+
+    footer i {
+        font-size: 1.5rem;
+    }
+
+}
+
+/*--- Recipe page styling ---*/
+.recipe-page {
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.recipe-page p{
+    text-align: left;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
