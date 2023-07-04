@@ -14,14 +14,14 @@ body {
 }
 /* IMAGEM - THALES */
 img {    
-    position: absolute; 
-    width: 200px;
-    height: 200px;
+    position: absolute ; 
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     box-shadow: 0 0 10px  rgb(74, 72, 46);
     left: 80%;
-    top: 5%;
-    z-index: 2;     
+    top: 1.5%;
+  
 }
 
 h1, h2 {
@@ -37,7 +37,7 @@ header {
 
 h1 {
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
     font-size: 2.2rem;
     text-align: center;
 }
@@ -126,7 +126,18 @@ footer a{
 
 /* FOR TABLET  */
 @media screen and (min-width: 800px){
-    /* header */
+    /* HEADER */
+
+    img {    
+        position: fixed ; 
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px  rgb(74, 72, 46);
+        left: 80%;
+        top: 5%;
+      
+    }
     h1 {
         font-size: 4.5rem;
         text-align: center;
@@ -161,6 +172,17 @@ footer a{
 
 /* FOR DESKTOP */
 @media screen and (min-width: 1000px){
+
+    img {    
+        position: fixed ; 
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px  rgb(74, 72, 46);
+        left: 80%;
+        top: 5%;
+      
+    }
 
     h1 {
         font-size: 7rem;
