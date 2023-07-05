@@ -187,8 +187,7 @@ footer a{
         display: grid;
         grid-template-columns: repeat(2, 2fr);
         gap: 1%;
-    
-       
+     
     }
 
     nav ul li {
