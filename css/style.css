@@ -92,14 +92,28 @@ main i{
     color:rgba(133, 131, 17, 0.687)
 }
 
+#data1{
+    color:rgba(239, 235, 11, 0.846);
+}
+
+#data2{
+    color:RGB(227, 76, 38);
+}
+
+#data3{
+    color:rgba(41, 101, 241)
+}
+
 .pvexperience {
-    text-align: right;
+    text-align: center;
 }
 
 .pvexperience a {
     text-decoration: none;
     color: crimson;
+   
 }
+
 
 span {
     font-weight: bold;
