@@ -25,7 +25,7 @@ img {
   
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
     font-family: "inter", serif;
 }
 
@@ -50,6 +50,15 @@ h3 {
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 1rem;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-style: normal;
+    text-align: center;
+ 
 }
 
 /* NAV BAR */
@@ -114,9 +123,6 @@ main i{
     color:rgba(41, 101, 241)
 }
 
-
-
-
 .educacional{
     line-height: 2.3;
 }
@@ -125,6 +131,14 @@ main i{
 span {
     font-weight: bold;
 }
+
+.objective {
+    padding: 1rem;
+    margin: auto ;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.057);
+}
+
 
 .wrapper {
     padding: 1rem;
@@ -224,6 +238,11 @@ footer a{
     }
 
 /* FOR TABLET - MAIN SECTION */
+
+    .objective{
+        border: 1px solid rgb(218, 9, 9);
+    }
+
     .wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -284,6 +303,16 @@ footer a{
         border: none;
     }
 /* MAIN SECTION FOR DESKTOP */
+
+    .objective{
+        max-width: 1100px;
+        padding: 1rem;
+        margin: auto ;
+        background-color: rgba(0, 0, 0, 0.057);
+    }
+
+
+
     .wrapper {
         max-width: 1100px;
         padding: 1rem;
