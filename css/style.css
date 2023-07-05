@@ -138,7 +138,7 @@ footer li {
 }
 
 footer i{
-    color: crimson;
+    color: rgb(134, 86, 95);
 }
 
 footer a{
@@ -147,7 +147,7 @@ footer a{
     font-size: .9rem;
 }
 
-.social-media ul li {
+.socialmedia ul li {
     display: inline-block;
     margin-left: 1rem;
 }
