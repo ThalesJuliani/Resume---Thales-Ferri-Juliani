@@ -153,6 +153,13 @@ span {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.057);
 }
+.wrapper3 {
+    padding: 1rem;
+    margin: auto ;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.057);
+}
+
 
 /* FOOTER */
 footer {
@@ -259,6 +266,15 @@ footer a{
         line-height: 3;
         border: 1px solid rgb(218, 9, 9);
     }
+    .wrapper3 {
+        font-size: 0.8rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        list-style-type: none;
+        line-height: 3;
+        border: 1px solid rgb(218, 9, 9);
+    }
 
 /* FOR TABLET FOOTER */
     footer ul {
@@ -321,6 +337,13 @@ footer a{
     }
 
     .wrapper2 {
+        max-width: 1100px;
+        padding: 1rem;
+        margin: auto ;
+        background-color: rgba(0, 0, 0, 0.057);
+    }
+
+    .wrapper3 {
         max-width: 1100px;
         padding: 1rem;
         margin: auto ;
