@@ -1,10 +1,10 @@
 /* GOOGLE FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
 
 /* HTML FONT AND LINE */
 html {
-    font-family: "Quicksand", sans-serif;
+    font-family: "inter", sans-serif;
     line-height: 1.5;
 }
 
@@ -20,13 +20,13 @@ img {
     border-radius: 50%;
     box-shadow: 0 0 10px  rgb(74, 72, 46);
     left: 80%;
-    top: 2%;
+    top: 4%;
     margin: 0.5% ;
   
 }
 
 h1, h2, h3 {
-    font-family: "Quattrocento", serif;
+    font-family: "inter", serif;
 }
 
 /* FOR MOBILE */
@@ -46,10 +46,10 @@ h1 {
 
 h3 {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     font-size: 1.5rem;
     text-align: center;
-    color: ;
+    padding-bottom: 1rem;
 }
 
 /* NAV BAR */
@@ -69,7 +69,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     line-height: 3;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px solid white;
 }
 
 nav a {
@@ -78,6 +78,12 @@ nav a {
 }
 
 /* MAIN SECTION MOBILE */
+
+main{
+    background-color: rgba(0, 0, 0, 0.057);
+    padding-bottom: 1rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem  ;
+}
 main h2, main p {
     margin: 0 1.5%;
 }
@@ -98,6 +104,8 @@ main i{
     color:rgba(239, 235, 11, 0.846);
 }
 
+
+
 #data2{
     color:RGB(227, 76, 38);
 }
@@ -116,6 +124,12 @@ main i{
    
 }
 
+.educacional{
+    line-height: 2.3;
+    border-bottom: 1px solid rgb(19, 14, 14);
+
+}
+
 
 span {
     font-weight: bold;
@@ -124,7 +138,6 @@ span {
 /* FOOTER */
 footer {
     border-top: 1px solid #000;
-    margin: 0.5% ;
     background-color: rgba(239, 235, 7, 0.687);
 }
 
@@ -138,7 +151,7 @@ footer li {
 }
 
 footer i{
-    color: crimson;
+    color: rgb(134, 86, 95);
 }
 
 footer a{
@@ -147,9 +160,14 @@ footer a{
     font-size: .9rem;
 }
 
-.social-media ul li {
+.socialmedia ul li {
     display: inline-block;
-    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.content a {
+    display: inline-block;
+    padding: 0.5rem;;
 }
 
 /* 1 - FOR TABLET  */
@@ -196,11 +214,26 @@ footer a{
         
     }
 
+    .educacional{
+        line-height: 2.3;
+    
+    }
+
 /* FOR TABLET - MAIN SECTION */
     .wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+    }
+
+    .wrapper2 {
+        font-size: 0.8rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        list-style-type: none;
+        line-height: 3;
+        border: 1px solid rgb(218, 9, 9);
     }
 
 /* FOR TABLET FOOTER */
@@ -214,11 +247,12 @@ footer a{
 
     img {    
         position: absolute ; 
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         border-radius: 50%;
         box-shadow: 0 0 10px  rgb(74, 72, 46);
         left: 80%;
+        top: 7%;
         padding: 0;      
     }
 
@@ -230,7 +264,10 @@ footer a{
     nav ul {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        max-width: 900px;
+        padding: 1rem;
         text-align: center;
+        margin: auto ;
     }
 
     nav ul li {
@@ -246,6 +283,21 @@ footer a{
         grid-template-columns: repeat(2, 1fr);
         max-width: 1100px;
         margin: auto;
+        background-color: rgba(0, 0, 0, 0.057);
+    }
+
+    .wrapper2 {
+        max-width: 1100px;
+        padding: 1rem;
+        text-align: center;
+        margin: auto ;
+    }
+
+    
+
+    .professionallife{
+        background-color: black;
+        color: rgb(226, 43, 43);
     }
 
 /* FOOTER FOR DESKTOP */
