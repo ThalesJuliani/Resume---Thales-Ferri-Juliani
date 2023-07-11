@@ -15,8 +15,8 @@ img {
     height: 90px;
     border-radius: 50%;
     box-shadow: 0 0 10px  rgb(74, 72, 46);
-    left: 80%;
-    top: 4%;
+    left: 75%;
+    top: 10%;
     margin: 0.5% ;
 }
 h1, h2, h3, h5 {
@@ -180,7 +180,7 @@ img {
      height: 200px;
      border-radius: 50%;
      box-shadow: 0 0 10px  rgb(74, 72, 46);
-     left: 80%;
+     left: 78%;
 }
 h1 {
     font-size: 4rem;
@@ -251,7 +251,7 @@ img {
     height: 220px;
     border-radius: 50%;
     box-shadow: 0 0 10px  rgb(74, 72, 46);
-    left: 80%;
+    left: 78%;
     top: 7%;
     padding: 0;      
 }
